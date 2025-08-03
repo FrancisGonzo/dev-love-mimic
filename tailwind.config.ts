@@ -20,6 +20,12 @@ export default {
 		extend: {
 			colors: {
 				border: 'hsl(var(--border))',
+				
+				/* Lovable brand colors */
+				'lovable-orange': 'hsl(var(--lovable-orange))',
+				'lovable-purple': 'hsl(var(--lovable-purple))',
+				'lovable-blue': 'hsl(var(--lovable-blue))',
+				'lovable-pink': 'hsl(var(--lovable-pink))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
@@ -62,6 +68,12 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'hero-gradient': 'var(--gradient-hero)',
+			},
+			backdropBlur: {
+				'glass': '20px',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Lovable.dev Design System - All colors, gradients, fonts, etc defined here. 
 All colors MUST be HSL.
 */
 
@@ -10,6 +10,25 @@ All colors MUST be HSL.
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
+    
+    /* Lovable brand colors */
+    --lovable-orange: 16 100% 66%;
+    --lovable-purple: 251 91% 95%;
+    --lovable-blue: 220 100% 95%;
+    --lovable-pink: 330 100% 95%;
+    
+    /* Hero gradient variables */
+    --gradient-hero: linear-gradient(135deg, 
+      hsl(220 100% 85%) 0%, 
+      hsl(251 91% 85%) 25%, 
+      hsl(280 100% 85%) 50%, 
+      hsl(16 100% 75%) 75%, 
+      hsl(330 100% 85%) 100%);
+    
+    /* Interactive elements */
+    --glass-bg: 255 255 255 / 0.1;
+    --glass-border: 255 255 255 / 0.2;
+    --glass-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
